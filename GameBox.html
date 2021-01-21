@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>GameBox</title>
+		<style type="text/css">
+			* {
+				padding: 0;
+				margin: 0;
+			}
+			
+			html {
+				/* background:#F0F1F2; */
+				background-color: #000000;
+			}
+			
+			.center {
+				display: flexbox;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+			
+			/* 版心默认样式 */
+			.content {
+				width: 1200px;
+				height: 100vh;
+				margin: 0 auto;
+				/* background-color: #000000; */
+			}
+		</style>
+	</head>
+	<body>
+		<div class="content center">
+			<canvas id="game-box" style="border: 1px solid #FFFFFF;"></canvas>
+			<canvas id="data-box" style="border: 1px solid #FFFFFF;"></canvas>
+		</div>
+	</body>
+	<script src="js/Snake.js" type="text/javascript" charset="utf-8"></script>
+</html>
